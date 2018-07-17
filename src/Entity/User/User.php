@@ -14,6 +14,7 @@ use MsgPhp\User\Entity\Fields\RolesField;
 
 /**
  * @ORM\Entity()
+ * @ORM\Table("users")
  */
 class User extends BaseUser implements DomainEventHandlerInterface
 {
